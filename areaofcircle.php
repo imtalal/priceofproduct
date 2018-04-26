@@ -6,7 +6,7 @@
  */
 include_once 'price.php';
 
-class circle extends price {
+class Circle extends Price {
 
     // for circle
     public $radius;
@@ -31,14 +31,14 @@ class circle extends price {
 }
 
 // object of class circle
-$cirObj = new circle();
+$cirObj = new Circle();
 // verifying if the input data is numeric
-if (!is_numeric($cirObj->radius)) {
+if ( !is_numeric( $cirObj->radius ) ) {
     echo "Please input a number only";
     exit;
 }
 // getting the area
-$cirObj->areaOfCircle($cirObj->radius);
+$cirObj->areaOfCircle( $cirObj->radius );
 // getting the price
 $cirObj->priceOfProduct();
 ?>
