@@ -4,7 +4,7 @@
  * An abstract class  ---- price calculation of different shape products
  * Done by : Developer imtalal
  */
-abstract class price {
+abstract class Price {
     
     // abstract method for price
     abstract function priceOfProduct();
