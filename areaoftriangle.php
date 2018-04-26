@@ -6,7 +6,7 @@
  */
 include_once 'price.php';
 
-class triangle extends price {
+class Triangle extends Price {
 
     // for triangle
     public $height;
