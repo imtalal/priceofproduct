@@ -5,7 +5,7 @@
  * Done by : Developer imtalal
  */
 include_once 'price.php';
-class rectangle extends price {
+class Rectangle extends Price {
     // for rectangle
     public $length;
     // for rectangle
@@ -33,7 +33,7 @@ class rectangle extends price {
     }
 }
 // object of class rectangle
-$recObj = new rectangle();
+$recObj = new Rectangle();
 // verifying if the input data is numeric
 if( !is_numeric( $recObj->length ) or !is_numeric( $recObj->width ) ){
     echo "Please input number only";
