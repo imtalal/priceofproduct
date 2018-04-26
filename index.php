@@ -4,21 +4,21 @@
  * Done by : Developer imtalal
  */
 
-class main {
+class Main {
 
     public function __construct() {
         // adding css file
-        echo '<link rel="stylesheet" href="style.css">';
+        echo '<link rel="stylesheet" href="assets/css/style.css">';
         // adding jquery file
-        echo '<script src="jquery-3.3.1.min.js"></script>';
+        echo '<script src="assets/js/jquery-3.3.1.min.js"></script>';
         // including ajax
-        echo '<script src="ajax_file.js"></script>';
+        echo '<script src="assets/js/ajax_file.js"></script>';
     }
 
 }
 
 // making ibject of main class
-$mainObj = new main();
+$mainObj = new Main();
 ?>
 
 
